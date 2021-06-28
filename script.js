@@ -3,6 +3,10 @@ function message() {
 }
 
 function login(element) {
-    console.log("Login Button Works", element);
-    element.innerText = "Logout";
+    // console.log("Login Button Works", element);
+    if (element.innerText == "Login") {
+        element.innerText = "Logout";
+    } else {
+        element.innerText = "Login"
+    }
 }
