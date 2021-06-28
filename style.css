@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    background-color: cornflowerblue;
+    padding: .75em 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-container {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+h1 {
+    margin: .1em 20% .1em 20%;
+    font-size: 40px;
+}
+
+#search {
+    margin: 0 20%;
+}
+
+#login {
+    margin: 0 20%;
+}
+
+.body-container {
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
