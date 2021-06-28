@@ -4,36 +4,116 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: cursive;
+}
+
 nav {
     display: flex;
     background-color: cornflowerblue;
-    padding: .75em 0;
     width: 80%;
+    min-width: 740px;
     margin: 0 auto;
 }
 
 .nav-container {
+    padding: .75em 0;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 0 auto;
     display: flex;
+    border: 5px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
-    margin: .1em 20% .1em 20%;
+    margin: .1em 10% .1em 10%;
     font-size: 40px;
 }
 
+h2 {
+    margin: 15px;
+}
+
 #search {
-    margin: 0 20%;
+    margin: 0 10%;
 }
 
 #login {
-    margin: 0 20%;
+    margin: 0 10%;
+    transition: all .2s ease-in-out;
+    font-size: 15px;
+    padding: .5em 1em;
+    box-shadow: 1px 3px 5px 1px rgb(105, 101, 101);
+    border-width: 2px;
+
 }
 
 .body-container {
     justify-content: center;
     margin: 0 auto;
     display: flex;
+    width: 80%;
+}
+
+.left-column, .card-right-side {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-column, .card-left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top-card, .bottom-card, .dojonary-card {
+    background-color: blanchedalmond;
+    border: 2px solid #999;
+    display: flex;
+    margin: 5px;
+}
+
+.card-left-side {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 103px;
+}
+
+.card-right-side {
+    justify-content: center;
+    align-content: center;
+
+}
+
+.dojonary-card {
+flex-direction: column;
+}
+
+#bottom-likes, #top-likes {
+    margin: 1em .5em;
+    transition: all .2s ease-in-out;
+    font-size: 15px;
+    font-weight: bold;
+    padding: .5em 1em;
+    box-shadow: 1px 3px 5px 1px rgb(105, 101, 101);
+    border-width: 2px;
+    background-color: #ffd966;
+}
+
+#add-definition {
+    background-color: #93c47d;
+    margin: 1em .5em;
+    transition: all .2s ease-in-out;
+    font-size: 15px;
+    padding: .5em 1em;
+    box-shadow: 1px 3px 5px 1px rgb(105, 101, 101);
+    border-width: 2px;
+    font-weight: bold;
+
 }
