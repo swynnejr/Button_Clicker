@@ -10,3 +10,7 @@ function login(element) {
         element.innerText = "Login"
     }
 }
+
+function hide(element) {
+    element.remove();
+}
